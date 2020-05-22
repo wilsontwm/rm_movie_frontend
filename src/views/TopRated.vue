@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="top-rated">
     <MovieContainer />
   </div>
 </template>
@@ -9,7 +9,7 @@
 import MovieContainer from '@/components/movies/MovieContainer.vue'
 
 export default {
-  name: 'Home',
+  name: 'TopRated',
   components: {
     MovieContainer
   }
