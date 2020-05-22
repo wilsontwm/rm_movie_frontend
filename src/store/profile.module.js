@@ -3,7 +3,7 @@ const state = {triggerLogin: false, isLoggingIn: false, user: null};
 
 const actions = {
     triggerLogin({commit, state}) {
-        if(state.profile === null) {
+        if(state.user === null) {
             commit('triggerLogin');
         }
     },
